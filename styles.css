@@ -1,6 +1,75 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
   width: 460px;
   height: 491px;
   border: solid 1px gray;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.titulo {
+  display: flex;
+  margin: auto;
+  font-size: larger;
+  font-weight: bold;
+}
+.cajas {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.caja {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  border: solid 1px lightgrey;
+  border-radius: 5px;
+}
+
+.caja5 {
+  background-color: #ff0099;
+  box-shadow: 1px 15px 18px 1px lightgrey;
+  color: white;
+}
+.puntaje {
+  display: flex;
+  justify-content: space-between;
+}
+.comentPuntaje {
+  display: flex;
+  margin-left: 20px;
+}
+
+.comentPuntaje2 {
+  display: flex;
+  text-align: end;
+  margin-right: 20px;
+}
+#cheka {
+  transform: scale(1.7);
+  margin: 30px;
+}
+.check {
+  margin: auto;
+}
+.siguiente {
+  margin: auto;
+  width: 400px;
+  height: 60px;
+  border: 1px solid lightgrey;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
 }
